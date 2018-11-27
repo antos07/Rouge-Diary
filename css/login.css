@@ -1,0 +1,74 @@
+body
+{
+	margin: 0;
+}
+
+content
+{
+	font-family: OpenSans, sans-serif;
+	width: 100%;
+	height: 75vh;
+	min-height: 203px;
+	display: flex;
+	align-items: center;
+    align-content: center; 
+    justify-content: center; 
+}
+
+#LoginContainer
+{
+	display: block;
+	background: white;
+	padding: 40px;
+	box-shadow: 0 0 500px gray;
+	width: 25%;
+}
+
+#LoginForm>legend
+{
+	/*font-family: OpenSans, sans-serif;*/
+	font-weight: 750;
+	font-size: 12pt;
+	color: rgba(65, 164, 60, 255);
+	margin-bottom: 15px;
+}
+
+form>div
+{
+	margin: 20px 0 20px 0;
+}
+
+form>div>label
+{
+	/*font-family: OpenSans, sans-serif;*/
+	font-weight: 740;
+	margin-right: 20px;
+	color: rgba(0, 0, 0, 255);
+}
+
+input
+{
+	float: right;
+}
+
+input[type="submit"]
+{
+	background-color: #18bbff;
+	color: white;
+	font-weight: 700;
+	border: 0 none;
+	cursor: pointer;
+	width: 55px;
+	height: 25px;
+}
+
+.error
+{
+	background-color: #d23500;
+	border: 2px solid #ec0000;
+	border-radius: 5px;
+
+	color: white;
+	font-size: 10pt;
+	text-align: center;
+}
