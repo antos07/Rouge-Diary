@@ -10,7 +10,7 @@ $(document).ready(
 				$.ajax(
 				{
 					method: "POST",
-					url: "../app/__login.php",
+					url: "../app/login.php",
 					//dataType: "json",
 					data: {
 						login: login_inp,

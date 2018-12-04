@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<span id="title">Электронный дневник</span>
-			<a id="profile" href="login.html">
+			<a id="profile" href="login.php">
 			<img src="../images/profile_image.png">
 			<span>Вход не выполнен<span>
 			</a>
