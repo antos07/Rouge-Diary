@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('localhost', 'id7917578_diaryrogue', '161102161102a');
+    $mysqli = new mysqli('localhost', 'root', '');
     
     /* проверка соединения */
     if (mysqli_connect_errno()) {

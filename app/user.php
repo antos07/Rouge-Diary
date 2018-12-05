@@ -1,6 +1,6 @@
 <?php
     session_start();
-    class user(){
+    class user{
         private $id;
         private $name_user;
         private $password;

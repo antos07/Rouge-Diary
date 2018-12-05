@@ -18,14 +18,14 @@ $(document).ready(
 					},
 					error: function(XHR) 
 					{ 
-						$("#LoginResult").text(XHR.status + ' : ' + XHR.statusText + ' (' + XHR.responseText + ')');
+						$("#LoginResult").html(XHR.responseText);
 						$("#LoginResult").addClass("error");
 					},
 					success: function (data)
 					{
 						if(data != "Ok")
 						{
-							$("#LoginResult").text(data);
+							$("#LoginResult").html(data);
 						    $("#LoginResult").addClass("error");
 						}
 						else
