@@ -17,11 +17,16 @@ content
 
 #LoginContainer
 {
+	min-width: 260px;
 	display: block;
 	background: white;
 	padding: 40px;
 	box-shadow: 0 0 500px gray;
-	width: 25%;
+	width: 20%;
+}
+
+#LoginForm
+{
 }
 
 #LoginForm>legend
@@ -33,22 +38,22 @@ content
 	margin-bottom: 15px;
 }
 
-form>div
+#LoginForm>div
 {
+	display: flex;
+	align-items: center;
+    align-content: center; 
+	justify-content: space-between;
+	flex-wrap: nowrap;
 	margin: 20px 0 20px 0;
 }
 
-form>div>label
+#LoginForm>div>label
 {
 	/*font-family: OpenSans, sans-serif;*/
 	font-weight: 740;
 	margin-right: 20px;
 	color: rgba(0, 0, 0, 255);
-}
-
-input
-{
-	float: right;
 }
 
 input[type="submit"]

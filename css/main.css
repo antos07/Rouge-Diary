@@ -1,7 +1,15 @@
+body
+{
+	min-width: 345px;
+}
+
 header
 {
+	height: 1.5em;
 	padding: 30px 50px 25px 50px;
 	display: flex;
+	align-content: center;
+	align-items: center;
 	justify-content: space-between;
 }
 
@@ -10,6 +18,7 @@ header
 	font-family: ﻿MyriadPro, sans-serif;
 	font-size: 17pt;
 	font-weight: bold;
+	margin-right: 5px;
 	color: rgba(0, 0, 0, 255);
 }
 
@@ -30,9 +39,17 @@ header
 }
 
 footer {
+	height: 0.5em;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+footer>div
+{	
 	font-family: ﻿OpenSans, sans-serif;
 	font-weight: 400;
 	font-size: 15pt;
-	padding: 15px;
-	text-align: center;
 }

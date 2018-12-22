@@ -1,6 +1,6 @@
 <hr>
 		<footer>
-			Все права защищены
+			<div>Все права защищены</div>
 		</footer>
 	</body>
 </html>
